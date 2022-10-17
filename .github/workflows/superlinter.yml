@@ -1,5 +1,5 @@
 
-name: Super-linter
+name: Super-Linter
 
 on: push
 
@@ -10,9 +10,9 @@ jobs:
 
     steps:
       - name: Checkout Code
-      - uses: action/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Super-linter
+      - name: Super-Linter
         uses: github/super-linter@v4.9.5
         env:
           DEFAULT_BRANCH: main
