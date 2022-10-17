@@ -6,7 +6,7 @@ on: push
 jobs:
   super-lint:
     name: Lint Code base
-    runs-on: windows-2019
+    runs-on: windows-latest
 
     steps:
       - name: Checkout Code
