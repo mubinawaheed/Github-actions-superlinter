@@ -5,12 +5,12 @@ on: push
 
 jobs:
   super-lint:
-    name: Lint Code base
+    name: Lint Code Base
     runs-on: windows-latest
 
     steps:
       - name: Checkout Code
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Super-Linter
         uses: github/super-linter@v4.9.5
