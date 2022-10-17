@@ -6,7 +6,7 @@ on: push
 jobs:
   super-lint:
     name: Lint Code base
-    runs-on: microsoft-windows
+    runs-on: windows-latest
 
     steps:
       - name: Checkout Code
